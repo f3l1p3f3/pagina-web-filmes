@@ -1,0 +1,53 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background-color: brown;
+    height: 60px;
+       
+}
+
+.logo{
+  
+    text-decoration: none;
+    font-size: 30px;
+    color: #FFF;
+    cursor: pointer;
+    transition: 0.5s;
+    
+}
+.favoritos{
+    cursor: pointer;
+    text-decoration: none;
+    background-color: #FFF;
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: bold;
+    color: #000;
+    transition: 0.9s;
+}
+.logo:hover, .favoritos:hover{
+    
+    opacity: 0.8;
+    
+}
+
+@media (max-width: 768px){
+    .logo {
+        font-size: 28px;
+    }
+    .favoritos{
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 576px){
+    .logo {
+        font-size: 26px;
+    }
+    .favoritos{
+        font-size: 14px;
+    }
+}
+
