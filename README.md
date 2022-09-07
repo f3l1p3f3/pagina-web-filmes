@@ -4,7 +4,7 @@ intuito portfólio
 React JS para composição do coódigo .\
 React-router-dom para criação de rotas pois a aplicação é um SPA.\
 Axios para requizição HTTP via API.\
-Toastify para personalizar as notificações.\
+Toastify para personalizar as notificações.
 
 ## Comando para inicializar a aplicação
 ### npm
