@@ -8,7 +8,7 @@ Toastify para personalizar as notificações.
 
 ## Comando para inicializar a aplicação
 ### npm
-npm start
+npm install && npm start
 
 ## About
 
